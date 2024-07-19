@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 1em; /* Esempio di dimensione del font ingrandita */
+}
+body {
+    font-size: 16px; /* Esempio: dimensione del testo di base */
+    font-size: 1rem; /* Usare rem per dimensioni relative */
+}
+a, button {
+    padding: 10px 20px; /* Esempio: spaziatura dei link e dei pulsanti */
+    font-size: 1em; /* Esempio: dimensione del testo per link e pulsanti */
+}
+/* Stili per i pulsanti */
+a.button,
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover,
+button:hover {
+    background-color: #45a049;
+}
+
+/* Stili per ulteriori pulsanti o link */
+#social ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#social ul li a:hover {
+    background-color: #e0e0e0;
+}
